@@ -1,17 +1,17 @@
 package ex04;
 
-public class Television {
+public class Television01 {
     int channel;
     int volume;
     boolean onOff;
 
     public static void main(String[] args) {
-        Television myTv = new Television();
+        Television01 myTv = new Television01();
         myTv.channel = 7;
         myTv.volume = 10;
         myTv.onOff = true;
 
-        Television yourTv = new Television();
+        Television01 yourTv = new Television01();
         yourTv.channel = 9;
         yourTv.volume = 12;
         yourTv.onOff = true;

@@ -1,6 +1,6 @@
 package ex04;
 
-class Box {
+class Box01 {
     int width;
     int length;
     int height;
@@ -9,8 +9,8 @@ class Box {
 
 public class BoxTest {
     public static void main(String[] args) {
-        Box b;
-        b = new Box();
+        Box01 b;
+        b = new Box01();
         b.width = 20;
         b.length = 20;
         b.height = 30;
