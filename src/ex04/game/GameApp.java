@@ -1,5 +1,14 @@
 package ex04.game;
 
+class Protoss {
+
+}
+
+
+
+
+
+
 public class GameApp {
 
     // u1 -> u2를 공격

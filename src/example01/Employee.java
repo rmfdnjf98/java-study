@@ -13,6 +13,7 @@ public class Employee {
     private String account;     // 계좌번호
     private String position;    // 직급 (예: "사원", "대리", "과장", "부장")
 
+
     // 3. 메서드 정의하기
     // 책임: 사원의 모든 정보를 보기 좋게 출력하세요
     void printInfo(){
@@ -66,7 +67,7 @@ public class Employee {
     }
 
 
-    //2. 생성자 만들기(오버로딩)
+    //2. 생성자 만들기(오버로딩)  //
 
     public Employee(String name, String phone) {
         this.name = name;
@@ -139,7 +140,7 @@ public class Employee {
         }
     }
 
-    //월급 계좌 이체 메서드
+
 
 }
 

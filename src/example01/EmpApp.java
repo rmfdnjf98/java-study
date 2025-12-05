@@ -2,11 +2,11 @@ package example01;
 
 public class EmpApp {
     public static void main(String[] args) {
-        Employee[] employees = new Employee[10];
+        Employee[] employees = new Employee[10];  // 사용하는 이유) employees e1.printInfo();부터 e10까지 출력하기 편하게 하기 위해
 
         // 1. 객체를 생성자로 초기화해서 등장
         Employee e1 = new Employee("홍길동", "01022223333");
-        
+
         // 2. 객체의 상태를 변경
         e1.setEmpNo(1);
         e1.setDept("총무팀");
@@ -52,6 +52,8 @@ public class EmpApp {
         for (int i = 0; i < 9; i++) {
             employees[i].printInfo();
         }
+
+
 
         // 전체 직원의 연봉 출력 (다 합쳐서)
         int totalcalYearSalary = 0;
