@@ -1,0 +1,35 @@
+package ex13;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Collect01 {
+    public static void main(String[] args) {
+        List<Integer> arr = new ArrayList(); //내부적으로 10칸짜리 배열이 생성된다. 기본은 오브젝트 타입 만든건[Integer 타입]
+
+        //1. 추가
+        arr.add(1);
+        arr.add(3);
+        arr.add(5);
+
+        //2. 찾기 (인덱스로 찾기)
+        System.out.println(arr.get(2));
+
+        //3.삭제
+        arr.remove(0);
+        System.out.println(arr.size());
+
+        //4. contains
+        boolean isThree = arr.contains(3);
+        System.out.println(isThree);
+
+        //5. 배열로 출력
+        for (int i = 0; i < arr.size(); i++) {
+            System.out.println(arr.get(i));
+        }
+        for (Integer i : arr){
+            System.out.println(i);
+        }
+
+    }
+}

@@ -23,7 +23,7 @@ public class MyHash extends Object{
         System.out.println(d2.hashCode());
 
         if(d1.hashCode() == d2.hashCode()){ // 주소 먼저 비교하면 좋고 같다면 값이 같을것, 주소가 달라도 상태가 같을 수 있다
-            System.out.println("같은 주소에 있믐 객체");
+            System.out.println("같은 주소에 있는 객체");
         }else {
             System.out.println("다른 주소에 있는 객체");
         }

@@ -8,7 +8,7 @@ interface RemoteControl{
     }
 }
 
-class Television implements RemoteControl{
+class Television implements RemoteControl {
     boolean on;
     public void turnOn(){
         on = true;
